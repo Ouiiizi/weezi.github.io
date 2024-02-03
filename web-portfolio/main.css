@@ -1,0 +1,178 @@
+@font-face { font-family: Josefin-Italic; 
+    src: url('JosefinSans-Italic-VariableFont_wght.ttf'); 
+
+}
+
+ @font-face { font-family: Josefont; 
+    font-weight: bold; 
+    src: url('JosefinSans-VariableFont_wght.ttf');
+}
+
+body { 
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    font-family: Josefont;
+
+}
+
+
+img { 
+
+    height: 32px;
+    width: 32px;
+    margin:auto;
+    padding: 20px;
+    float: right;
+}
+
+.img_links {
+    text-align: right;
+    margin: 20px;
+}
+
+ .img_links a {
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+} 
+
+.img_links a:hover {
+    opacity: 1;
+}
+
+
+#earth { 
+    width: 72px;
+    height: 72px;
+    background: url(svg-logos/invert-earth.jpg);
+    border-radius: 50%;
+    background-size: 290px;box-shadow: inset 16px 0 40px 3px rgb(0, 0, 0), inset -3px 0 6px 2px rgba(255, 255, 255, 0.2);
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+
+}
+
+
+@keyframes rotate { 
+    from { 
+        background-position-x:0px ;
+    }
+
+    to { 
+        background-position-x: 290px;
+    }
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+    font-family: Josefont;
+    
+}
+
+
+p { 
+    padding: 10px;
+    font-family: Josefin-Italic;
+    text-align: center;
+}
+
+
+#prog_information { 
+    font-family: Josefin-Italic;
+    font-size: large;
+    padding: 35px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.expanding-list {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.expanding-list li {
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 5px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.expanding-list li:hover {
+    background-color: #e0e0e0;
+}
+
+.list-item {
+    cursor: pointer;
+    font-family: Josefont;
+}
+
+.item-details {
+    display: none;
+    margin-top: 10px;
+    font-family: Josefin-Italic;
+}
+
+.expanding-list li:hover .item-details {
+    display: block;
+}
+
+#note { 
+    font-size: small;
+    color: #333;
+}
+
+#internships {
+    margin-bottom: 25px;
+}
+
+.education-list{
+    font-family: Josefin-Italic;
+
+    text-align: center;
+    list-style-type: none;
+}
+
+h2 { 
+    font-family: Josefont;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+h3 { 
+    font-family: Josefont;
+    margin-top: 30px;
+    margin-left: 30px;
+ 
+
+}
+
+h4 { 
+    font-family: Josefont;
+    margin-left: 30px;
+
+}
+
+#education-list { 
+    font-size: medium;
+    margin-left: 30px;
+}
